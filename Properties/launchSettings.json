@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ConsoleApp1_RingbaChallenge": {
+      "commandName": "Project",
+      "commandLineArgs": "http://ringba-test-html.s3-website-us-west-1.amazonaws.com/TestQuestions/output.txt"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+C:\Users\lm616\Desktop\CodingProjects\dotNET\ConsoleApp1_RingbaChallenge\ConsoleApp1_RingbaChallenge\bin\Debug\netcoreapp2.2\ConsoleApp1_RingbaChallenge.deps.json
+C:\Users\lm616\Desktop\CodingProjects\dotNET\ConsoleApp1_RingbaChallenge\ConsoleApp1_RingbaChallenge\bin\Debug\netcoreapp2.2\ConsoleApp1_RingbaChallenge.runtimeconfig.json
+C:\Users\lm616\Desktop\CodingProjects\dotNET\ConsoleApp1_RingbaChallenge\ConsoleApp1_RingbaChallenge\bin\Debug\netcoreapp2.2\ConsoleApp1_RingbaChallenge.runtimeconfig.dev.json
+C:\Users\lm616\Desktop\CodingProjects\dotNET\ConsoleApp1_RingbaChallenge\ConsoleApp1_RingbaChallenge\bin\Debug\netcoreapp2.2\ConsoleApp1_RingbaChallenge.dll
+C:\Users\lm616\Desktop\CodingProjects\dotNET\ConsoleApp1_RingbaChallenge\ConsoleApp1_RingbaChallenge\bin\Debug\netcoreapp2.2\ConsoleApp1_RingbaChallenge.pdb
+C:\Users\lm616\Desktop\CodingProjects\dotNET\ConsoleApp1_RingbaChallenge\ConsoleApp1_RingbaChallenge\obj\Debug\netcoreapp2.2\ConsoleApp1_RingbaChallenge.csprojAssemblyReference.cache
+C:\Users\lm616\Desktop\CodingProjects\dotNET\ConsoleApp1_RingbaChallenge\ConsoleApp1_RingbaChallenge\obj\Debug\netcoreapp2.2\ConsoleApp1_RingbaChallenge.csproj.CoreCompileInputs.cache
+C:\Users\lm616\Desktop\CodingProjects\dotNET\ConsoleApp1_RingbaChallenge\ConsoleApp1_RingbaChallenge\obj\Debug\netcoreapp2.2\ConsoleApp1_RingbaChallenge.AssemblyInfoInputs.cache
+C:\Users\lm616\Desktop\CodingProjects\dotNET\ConsoleApp1_RingbaChallenge\ConsoleApp1_RingbaChallenge\obj\Debug\netcoreapp2.2\ConsoleApp1_RingbaChallenge.AssemblyInfo.cs
+C:\Users\lm616\Desktop\CodingProjects\dotNET\ConsoleApp1_RingbaChallenge\ConsoleApp1_RingbaChallenge\obj\Debug\netcoreapp2.2\ConsoleApp1_RingbaChallenge.dll
+C:\Users\lm616\Desktop\CodingProjects\dotNET\ConsoleApp1_RingbaChallenge\ConsoleApp1_RingbaChallenge\obj\Debug\netcoreapp2.2\ConsoleApp1_RingbaChallenge.pdb

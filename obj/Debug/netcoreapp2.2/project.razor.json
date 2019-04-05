@@ -1,0 +1,14 @@
+{
+  "ProjectFilePath": "c:\\Users\\lm616\\Desktop\\CodingProjects\\dotNET\\ConsoleApp1_RingbaChallenge\\ConsoleApp1_RingbaChallenge\\ConsoleApp1_RingbaChallenge.csproj",
+  "TargetFramework": "netcoreapp2.2",
+  "TagHelpers": [],
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  }
+}
