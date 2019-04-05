@@ -17,11 +17,12 @@ namespace ConsoleApp1_RingbaChallenge
             if (args == null || args.Length == 0)
             {
                 Console.WriteLine("Please provide a valid remote file location.");
-                
+
             }
                 // Hard coded location for testing - be sure to comment out arg based remoteLocation below if using hard code
-                //string remoteLocation = "http://ringba-test-html.s3-website-us-west-1.amazonaws.com/TestQuestions/output.txt";
-                
+                //string remoteLocation = "insert remote .txt url location here";
+                //NOTE: This program was written to accept .txt remote file compressed with no spaces or symbols, each word separated by camel casing
+
                 // Access text file
                 string remoteLocation = args[0];
                 WebClient client = new WebClient();
@@ -38,7 +39,7 @@ namespace ConsoleApp1_RingbaChallenge
                 int[] countArr = new int[(int)char.MaxValue];
                 // Int to store uppercase count
                 int upper = 0;
-       
+
 
                 // Iterate over each letter
                 foreach (char k in text)
@@ -62,12 +63,12 @@ namespace ConsoleApp1_RingbaChallenge
                 }
 
                 // Print uppercase count
-                //Test: Opperating as expected 
+                //Test: Opperating as expected
                 Console.WriteLine($"Uppercase Count: {upper}");
 
                 // Split camelCase
                 string splitText = Regex.Replace(Regex.Replace(text, @"(\P{Ll})(\P{Ll}\p{Ll})", "$1 $2"), @"(\p{Ll})(\P{Ll})", "$1 $2");
-            
+
                 // Array of words in text
                 string[] wordArr = splitText.Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
 
@@ -93,13 +94,13 @@ namespace ConsoleApp1_RingbaChallenge
                         else
                             dic2.Add(s.Substring(0, 2), 1);
                     }
-                
+
 
                 }
 
                 // Print most common word and count
                 //Test: Operating as expected
-                int max = dic1.Values.Max(); 
+                int max = dic1.Values.Max();
                 foreach (KeyValuePair<string, int> kvp in dic1)
                 {
                   if (kvp.Value == max)
@@ -127,7 +128,7 @@ namespace ConsoleApp1_RingbaChallenge
 
                 // List to store words with identified max prefix
                 List<string> prefixWords = new List<string>();
-            
+
                 //Find words with max prefix
                 foreach (string s in wordArr)
                 {
@@ -136,7 +137,7 @@ namespace ConsoleApp1_RingbaChallenge
                         prefixWords.Add(s);
                     }
                 }
-            
+
                 // Print words with max prefix comma separated
                 //Test: Operating as expected
                 Console.WriteLine($"The prefix '{maxPrefix}' appears in the following words: { String.Join(", ", prefixWords.ToArray())}");
@@ -145,5 +146,5 @@ namespace ConsoleApp1_RingbaChallenge
             }
         }
 
-    
+
 }
